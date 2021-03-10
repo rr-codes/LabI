@@ -29,17 +29,7 @@ public class DataController implements SerialPortMessageListenerWithExceptions {
 
     @Override
     public void serialEvent(SerialPortEvent serialPortEvent) {
-        if (serialPortEvent.getEventType() != SerialPort.LISTENING_EVENT_DATA_RECEIVED) {
-            return;
-        }
-
-        var data = serialPortEvent.getReceivedData();
-        var value = ByteBuffer.wrap(data).getInt();
-
-        var time = System.currentTimeMillis();
-        var dataPoint = new XYChart.Data<Number, Number>(time, value);
-
-        Platform.runLater(() -> this.dataPoints.add(dataPoint));
+        // TODO: Implement this method. Refer to the documentation for more details.
     }
 
     @Override

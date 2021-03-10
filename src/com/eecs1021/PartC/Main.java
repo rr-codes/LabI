@@ -24,23 +24,7 @@ public class Main extends Application {
     private static TableView<XYChart.Data<Number, Number>> getTableView() {
         // TODO: Create a `TableView<XYChart.Data<Number, Number>>`.
         //  Refer to the documentation for further details.
-
-        var table = new TableView<XYChart.Data<Number, Number>>();
-
-        var timeColumn = new TableColumn<XYChart.Data<Number, Number>, Number>("Date");
-        timeColumn.setCellValueFactory(row -> row.getValue().XValueProperty());
-
-        var dateFormat = DateFormat.getTimeInstance();
-        var converter = new FormatStringConverter<Number>(dateFormat);
-
-        timeColumn.setCellFactory(column -> new TextFieldTableCell<>(converter));
-
-        var valueColumn = new TableColumn<XYChart.Data<Number, Number>, Number>("Value");
-        valueColumn.setCellValueFactory(row -> row.getValue().YValueProperty());
-
-        table.getColumns().setAll(List.of(timeColumn, valueColumn));
-
-        return table;
+        return null;
     }
 
     @Override

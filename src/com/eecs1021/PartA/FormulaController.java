@@ -9,6 +9,7 @@ public class FormulaController {
      * @param coefficients the set of coefficients of some quadratic equation
      */
     public FormulaController(QuadraticCoefficients<Integer> coefficients) {
+        // TODO: Implement this constructor, which may involve creating `private final` fields for this class
     }
 
     /**
@@ -20,6 +21,7 @@ public class FormulaController {
      * @return the y value
      */
     private int getY(int x) {
+        // TODO: Implement this method. (Refer to the above JavaDoc comments).
         return -1;
     }
 
@@ -35,6 +37,7 @@ public class FormulaController {
      * @return the list of data points
      */
     public List<XYChart.Data<Number, Number>> getData(int numberOfSamples) {
+        // TODO: Implement this method. (Refer to the above JavaDoc comments).
         return null;
     }
 
@@ -45,6 +48,7 @@ public class FormulaController {
      * @return a formatted String
      */
     public String getFormulaString() {
+        // TODO: Implement this method. (Refer to the above JavaDoc comments).
         return null;
     }
 }
