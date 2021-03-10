@@ -45,7 +45,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) {
         var coefficients = readCoefficients(System.in); // get the values
-        var controller = new Controller(coefficients); // create the controller
+        var controller = new FormulaController(coefficients); // create the controller
         var data = controller.getData(N_SAMPLES); // get the computed data from the controller
 
         stage.setTitle("My Equation");

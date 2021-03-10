@@ -7,6 +7,8 @@
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/com/fazecast/jSerialComm/2.6.2/jSerialComm-2.6.2-javadoc.jar!/" />
     </JAVADOC>
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fazecast/jSerialComm/2.6.2/jSerialComm-2.6.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

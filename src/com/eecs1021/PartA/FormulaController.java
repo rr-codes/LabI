@@ -3,12 +3,12 @@ package com.eecs1021.PartA;
 import javafx.scene.chart.XYChart;
 import java.util.List;
 
-public class Controller {
+public class FormulaController {
     /**
      * Creates a new Controller to control the logic of the quadratic equation
      * @param coefficients the set of coefficients of some quadratic equation
      */
-    public Controller(QuadraticCoefficients<Integer> coefficients) {
+    public FormulaController(QuadraticCoefficients<Integer> coefficients) {
     }
 
     /**
